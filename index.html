@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -41,7 +42,7 @@
 
     <!--hero-->
     <section class="hero" id="home">
-        <div class="main-content">
+        <div class="main-content" data-aos="fade-in">
             <h4>Hi, There!</h4>
             <h1>I'm <span>Namal Pathum</span></h1>
             <p>Software engineering undergraduate in SLIIT.</p>
@@ -61,11 +62,11 @@
 
     <!--about-->
     <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-down">
             <img src="img/about.jpg">
         </div>
 
-        <div class="about-text">
+        <div class="about-text" data-aos="zoom-in-up">
             <h2>I am Software <span>Engineer</span> <br> & Web Developer
             </h2>
             <div class="exp-area">
@@ -106,11 +107,11 @@
 
     <!--services-->
     <section class="services" id="services">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>My <span>Services</span></h2>
         </div>
 
-        <div class="services-content">
+        <div class="services-content" data-aos="zoom-in-up">
             <div class="box">
                 <img src="img/s-1.svg">
                 <h3>UI/UX Design</h3>
@@ -146,11 +147,11 @@
 
     <!--portfolio-->
     <section class="portfolio" id="portfolio">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>My <span>Portfolio</span></h2>
         </div>
 
-        <div class="portfolio-content">
+        <div class="portfolio-content" data-aos="zoom-in-up">
             <div class="row">
                 <img src="img/port-1.jpg">
                 <div class="main-row">
@@ -228,11 +229,11 @@
 
     <!--contact-->
     <section class="contact" id="contact">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>Contact <span>Me</span></h2>
         </div>
 
-        <div class="contact-form">
+        <div class="contact-form" data-aos="zoom-in">
             <form action="">
                 <input type="text" placeholder="Your name" required>
                 <input type="email" placeholder="Email Address.." required>
@@ -255,6 +256,15 @@
 
     <!--js link-->
     <script src="js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+
+      });
+    </script>
     
 </body>
 </html>
