@@ -12,7 +12,8 @@
     --text-color: #fff;
     --bg-color: #1b1f24;
     --second-bg-color: #22282f;
-    --main-color: #13bbff;
+    /* --main-color: #13bbff; */
+    --main-color: #d9ad7c;
     --other-color: #c3cad5;
 
     --h1-font: 4.5rem;
@@ -309,7 +310,8 @@ header.sticky{
     font-size: 27px;
     border-radius: 50%;
     color: var(--text-color);
-    background: #075fe4;
+    /* background: #075fe4; */
+    background: #3e4444;
 }
 .row h4{
     font-size: 25px;
